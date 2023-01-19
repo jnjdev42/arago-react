@@ -28,11 +28,30 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.login-form > * {
+  margin-top: 2em !important;
+  width: 40vh;
+  flex-direction: row;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.login-form > .title {
+  text-align: center;
+}
+
+.errMess{
+  color: red;
 }
